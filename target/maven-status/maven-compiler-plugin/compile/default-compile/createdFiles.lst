@@ -1,4 +1,5 @@
 com\mycompany\hackerrank\PlusMinus.class
+com\mycompany\hackerrank\sortingalgotirhms\CountingSortOne.class
 com\mycompany\hackerrank\datastructures\array\TwoDimentionsArray.class
 com\mycompany\hackerrank\datastructures\array\DynamicArray.class
 com\mycompany\hackerrank\BgDecimalTest.class
@@ -12,6 +13,7 @@ com\mycompany\hackerrank\NewClass.class
 com\mycompany\hackerrank\PlusMinusWithFormat.class
 com\mycompany\hackerrank\MinMaxSum.class
 com\mycompany\hackerrank\sortingalgotirhms\QuickSortPartition.class
+com\mycompany\hackerrank\sortingalgotirhms\CountingSortTwo.class
 com\mycompany\hackerrank\datastructures\array\LeftRotationEfficient.class
 com\mycompany\hackerrank\datastructures\array\LeftRotationEfficient1.class
 com\mycompany\hackerrank\datastructures\linkedlists\singlylinkedlist\Node.class
