@@ -25,11 +25,9 @@ public class CountingSortTwo {
         System.out.println("");
         
         List<Integer> results = countingSort(unsorted);
-        System.out.print("[");
         for(Integer n : results) {
             System.out.print(n + " ");
         }
-        System.out.print("]");
     }
     
     public static List<Integer> countingSort(List<Integer> arr) {
