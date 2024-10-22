@@ -5,6 +5,7 @@ com\mycompany\hackerrank\datastructures\array\DynamicArray.class
 com\mycompany\hackerrank\BgDecimalTest.class
 com\mycompany\hackerrank\TimeConversion.class
 com\mycompany\hackerrank\datastructures\linkedlists\singlylinkedlist\SinglyLinkedListTest.class
+com\mycompany\hackerrank\sortingalgotirhms\CountingSortFull.class
 com\mycompany\hackerrank\datastructures\array\LeftRotationInefficient.class
 com\mycompany\temporary\examples\SwingWorkerThread.class
 com\mycompany\hackerrank\datastructures\array\ArrrayManipulation.class
