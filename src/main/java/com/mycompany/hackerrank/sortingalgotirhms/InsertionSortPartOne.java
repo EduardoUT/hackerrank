@@ -11,6 +11,8 @@ import java.util.List;
  *
  * Insertion sort simple, taking the last value in the array and comparing to
  * the rest of elements, replace the element less than the last elemento stored.
+ * 
+ * We print every time there is a sort.
  *
  * @author eduar
  */
