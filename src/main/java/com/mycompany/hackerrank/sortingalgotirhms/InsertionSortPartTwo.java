@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * This is the full version where we are sorting all the elements one by one,
  * this algorithm is O(n^2) since it uses two cicles.
- * 
+ *
  * We print each time there is a sort.
  *
  * @author eduar
