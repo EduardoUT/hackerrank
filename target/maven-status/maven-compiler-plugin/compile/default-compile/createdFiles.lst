@@ -4,12 +4,14 @@ com\mycompany\hackerrank\datastructures\array\TwoDimentionsArray.class
 com\mycompany\hackerrank\datastructures\array\DynamicArray.class
 com\mycompany\hackerrank\BgDecimalTest.class
 com\mycompany\hackerrank\TimeConversion.class
+com\mycompany\hackerrank\singlylinkedlist\SinglyLinkedList.class
 com\mycompany\hackerrank\sortingalgotirhms\CountingSortFull.class
 com\mycompany\hackerrank\datastructures\array\LeftRotationInefficient.class
 com\mycompany\temporary\examples\SwingWorkerThread.class
 com\mycompany\hackerrank\datastructures\array\ArrrayManipulation.class
 com\mycompany\hackerrank\NewClass.class
 com\mycompany\hackerrank\PlusMinusWithFormat.class
+com\mycompany\hackerrank\singlylinkedlist\SinglyLinkedListNode.class
 com\mycompany\hackerrank\MinMaxSum.class
 com\mycompany\hackerrank\sortingalgotirhms\QuickSortPartition.class
 com\mycompany\hackerrank\sortingalgotirhms\CountingSortTwo.class
