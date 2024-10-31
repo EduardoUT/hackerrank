@@ -12,10 +12,8 @@ public class SinglyLinkedListNode {
 
     private int nodeData;
     private SinglyLinkedListNode next;
-    private boolean isCurrentNodeNull = true;
 
     public SinglyLinkedListNode(int nodeData) {
-        setIsCurrentNodeNull(false);
         this.nodeData = nodeData;
         this.next = null;
     }
@@ -46,19 +44,5 @@ public class SinglyLinkedListNode {
      */
     public void setNext(SinglyLinkedListNode next) {
         this.next = next;
-    }
-
-    /**
-     * @return the isCurrentNodeNull
-     */
-    public boolean isIsCurrentNodeNull() {
-        return isCurrentNodeNull;
-    }
-
-    /**
-     * @param isCurrentNodeNull the isCurrentNodeNull to set
-     */
-    private void setIsCurrentNodeNull(boolean isCurrentNodeNull) {
-        this.isCurrentNodeNull = isCurrentNodeNull;
     }
 }
