@@ -4,8 +4,6 @@
  */
 package com.mycompany.hackerrank.singlylinkedlist;
 
-import java.util.Optional;
-
 /**
  * In this LinkedList I include all the excersices with a SinglyLinkedList of
  * HackerRank.
