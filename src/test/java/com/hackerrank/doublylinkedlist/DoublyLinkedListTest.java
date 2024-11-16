@@ -81,7 +81,7 @@ public class DoublyLinkedListTest {
         doublyLinkedList.traverseList();
     }
 
-    @DisplayName("Debería revertir los nodos en la lista")
+    @DisplayName("Debería revertir la lista")
     @Test
     public void testReverseList() {
         doublyLinkedList.insertNode(56);
@@ -91,5 +91,7 @@ public class DoublyLinkedListTest {
         DoublyLinkedList testTraverse = new DoublyLinkedList();
         Node newHeadRef = doublyLinkedList.reverse(doublyLinkedList.getHead());
         testTraverse.traverseGivenHeadNode(newHeadRef);
+        assertEquals(56, doublyLinkedList.getTail().getValue());
+        assertEquals(987, doublyLinkedList.getHead().getValue());
     }
 }
