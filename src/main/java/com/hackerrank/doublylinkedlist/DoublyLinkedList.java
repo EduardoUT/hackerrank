@@ -99,27 +99,19 @@ public class DoublyLinkedList {
             throw new NullPointerException("Lista vacía.");
         }
 
-        if (node.getNext() != null) {
-            Node temp = node;
-            Node prev;
-            Node next;
-            setTail(temp);
-            while (temp != null) {
-                prev = temp.getPrev();
-                next = temp.getNext();
-                temp.setPrev(next);
-                temp.setNext(prev);
-                if (temp.getPrev() != null) {
-                    temp = temp.getPrev();
-                } else {
-                    break;
-                }
-            }
-            setHead(temp);
-            return getHead();
-        } else {
-            return node;
+        Node temp = node;
+        Node prev = null;
+        Node next;
+        while (temp != null) {
+            next = temp.getNext();
+            temp.setNext(prev);
+            temp.setPrev(next);
+            prev = temp;
+            temp = next;
         }
+        setHead(prev);
+        setTail(node);
+        return getHead();
     }
 
     /**
