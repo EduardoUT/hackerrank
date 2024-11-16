@@ -66,6 +66,62 @@ public class DoublyLinkedList {
         }
     }
 
+    public void traverseList() {
+        if (head == null) {
+            throw new NullPointerException("Lista vacía.");
+        }
+        Node temp = head;
+        while (temp != null) {
+            System.out.print(temp.getValue() + " -> ");
+            temp = temp.getNext();
+        }
+    }
+
+    public void traverseGivenHeadNode(Node head) {
+        if (head == null) {
+            throw new NullPointerException("Lista vacía.");
+        }
+        Node temp = head;
+        while (temp != null) {
+            System.out.print(temp.getValue() + " -> ");
+            temp = temp.getNext();
+        }
+    }
+
+    /**
+     * Reverts the order of a DoublyLinkedList given a head node.
+     *
+     * @param node
+     * @return The new head reference of the DoublyLinkedList.
+     */
+    public Node reverse(Node node) {
+        if (node == null) {
+            throw new NullPointerException("Lista vacía.");
+        }
+
+        if (node.getNext() != null) {
+            Node temp = node;
+            Node prev;
+            Node next;
+            setTail(temp);
+            while (temp != null) {
+                prev = temp.getPrev();
+                next = temp.getNext();
+                temp.setPrev(next);
+                temp.setNext(prev);
+                if (temp.getPrev() != null) {
+                    temp = temp.getPrev();
+                } else {
+                    break;
+                }
+            }
+            setHead(temp);
+            return getHead();
+        } else {
+            return node;
+        }
+    }
+
     /**
      * @return the head
      */

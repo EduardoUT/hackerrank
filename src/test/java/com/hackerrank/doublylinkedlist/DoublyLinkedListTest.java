@@ -48,7 +48,7 @@ public class DoublyLinkedListTest {
         assertEquals(4, doublyLinkedList.getHead().getValue());
         assertEquals(4, doublyLinkedList.getTail().getValue());
     }
-    
+
     @DisplayName("Debería eliminar un nodo en head")
     @Test
     public void testDeleteNodeFromHead() {
@@ -58,7 +58,7 @@ public class DoublyLinkedListTest {
         assertNull(doublyLinkedList.getHead().getPrev());
         assertEquals(80, doublyLinkedList.getHead().getValue());
     }
-    
+
     @DisplayName("Debería obtener valores distintos al agregar un nuevo elemento en Head y Tail.")
     @Test
     public void testInsertNewNode() {
@@ -68,7 +68,7 @@ public class DoublyLinkedListTest {
         assertEquals(6, doublyLinkedList.getHead().getValue());
         assertEquals(999, doublyLinkedList.getTail().getValue());
     }
-    
+
     @DisplayName("Debería elminiar un nodo de Tail.")
     @Test
     public void testDeleteFromTail() {
@@ -78,5 +78,18 @@ public class DoublyLinkedListTest {
         doublyLinkedList.insertNode(178);
         doublyLinkedList.deleteFromTail();
         assertEquals(988, doublyLinkedList.getTail().getValue());
+        doublyLinkedList.traverseList();
+    }
+
+    @DisplayName("Debería revertir los nodos en la lista")
+    @Test
+    public void testReverseList() {
+        doublyLinkedList.insertNode(56);
+        doublyLinkedList.insertNode(788);
+        doublyLinkedList.insertNode(10000);
+        doublyLinkedList.insertNode(987);
+        DoublyLinkedList testTraverse = new DoublyLinkedList();
+        Node newHeadRef = doublyLinkedList.reverse(doublyLinkedList.getHead());
+        testTraverse.traverseGivenHeadNode(newHeadRef);
     }
 }
