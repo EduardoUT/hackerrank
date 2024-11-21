@@ -1,6 +1,6 @@
 
-import com.mycompany.hackerrank.singlylinkedlist.SinglyLinkedList;
-import com.mycompany.hackerrank.singlylinkedlist.SinglyLinkedListNode;
+import com.hackerrank.singlylinkedlist.SinglyLinkedList;
+import com.hackerrank.singlylinkedlist.SinglyLinkedListNode;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
